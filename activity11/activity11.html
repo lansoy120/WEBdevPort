@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act11</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+    <div class="main-wrapper">
+       
+        <div class="card">
+            <h2>For Loop</h2>
+            <div class="input-row">
+                <label>Enter number:</label>
+                <input type="number" id="forNum">
+            </div>
+            <div class="input-row">
+                <label>Enter text:</label>
+                <input type="text" id="forText">
+            </div>
+            <div class="button-row">
+                <button class="btn-show" onclick="runForLoop()">Show</button>
+                <button class="btn-clear" onclick="clearFor()">Clear</button>
+            </div>
+            <div id="forOutput" class="output-area"></div>
+        </div>
+ 
+        <div class="card">
+            <h2>While Loop</h2>
+            <div class="input-row">
+                <label>Enter number:</label>
+                <input type="number" id="whileNum">
+            </div>
+            <div class="input-row">
+                <label>Enter text:</label>
+                <input type="text" id="whileText">
+            </div>
+            <div class="button-row">
+                <button class="btn-show" onclick="runWhileLoop()">Show</button>
+                <button class="btn-clear" onclick="clearWhile()">Clear</button>
+            </div>
+            <div id="whileOutput" class="output-area"></div>
+        </div>
+ 
+        <div class="card">
+            <h2>Do-While Loop</h2>
+            <div class="input-row">
+                <label>Enter number:</label>
+                <input type="number" id="doNum">
+            </div>
+            <div class="input-row">
+                <label>Enter text:</label>
+                <input type="text" id="doText">
+            </div>
+            <div class="button-row">
+                <button class="btn-show" onclick="runDoWhile()">Show</button>
+                <button class="btn-clear" onclick="clearDo()">Clear</button>
+            </div>
+            <div id="doOutput" class="output-area"></div>
+        </div>
+ 
+    </div>
+ 
+    <script src="main.js"></script>
+</body>
+</html>
